@@ -1,0 +1,102 @@
+@font-face {
+    font-family: vcsmono;
+    src: url(VCR_OSD_MONO_1.001.ttf);
+}
+
+html {
+    text-align: center;
+    color: white;
+    background-color: #404040;
+    font-family: vcsmono, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+ul {
+    font-size: 16px;
+    list-style-position: inside;
+    text-align: center;
+}
+
+li,
+dd {
+    font-size: 16px;
+    text-align: center;
+}
+
+dt {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-position: inside;
+    text-align: center;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    background-color: #262626;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+.topnav a:link {
+    color: white;
+}
+
+.topnav a:visited {
+    color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    background-color: #333;
+    align: center;
+    text-align: center;
+    margin: 0px auto;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    align: center;
+    text-align: center;
+}
+
+a:visited {
+    color: #3d5191;
+}
+
+a:link {
+    color: #6494e0;
+}
