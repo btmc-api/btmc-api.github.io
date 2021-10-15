@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles/style.css" />
+        <title>BTMC Api Docs</title>
+    </head>
+
+    <meta content="BTMC API Docs" property="og:title">
+    <meta content="The BTMC api's documentation" property="og:description">
+    <meta content="https://developers.bmtc.dev">
+
+    <div class="topnav">
+        <a href='../../../../index.html'>Back to home</a>
+        <a href='partnerspath.html'>Partners Path</a>
+        <a href='../publicpath.html'>Public Path</a>
+        <a href='../../api.html'>Main API</a>
+    </div>
+
+    <body>
+        <h1>Is guild partner method</h1>
+        <p>This method can be found using a get request to https://api.btmc.dev/api/public/partners/isguildpartner</p>
+
+        <h2>Required arguments</h2>
+        <li>Guild</li>
+
+        <h2>Example request</h2>
+        <p>https://api.btmc.dev/api/public/partners/isguildpartner?guild=852227959767040060</p>
+        <p>Guild is BTMC's support server and it will return</p>
+        <p id="response">awaiting response from api</p>
+        <script>
+            const tx = document.getElementById("response");
+            /*const https = require('https');
+            https.get('https://api.btmc.dev/api/public/partners/isguildpartner?guild=852227959767040060', (res) =>{
+                console.log('Stat code: ', res.statusCode);
+                console.log('Headers: ', res.headers);
+
+                res.on('data', (d) =>{
+                    tx.textContent = d;
+                });
+            }).on('error', (e) => {
+                tx.textContent = e;
+            })*/
+            tx.textContent = "true"
+        </script>
+    </body>
+</html>
