@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles/style.css" />
+        <title>BTMC Api Docs</title>
+    </head>
+
+    <meta content="BTMC API Docs" property="og:title">
+    <meta content="The BTMC module documentation" property="og:description">
+    <meta content="https://developers.bmtc.dev">
+
+    <div class="topnav">
+        <a href="../../welcome.html">Home</a>
+    </div>
+
+    <body>
+        <h1>GUILD</h1>
+        <p>The guild object/class</p>
+        <h2>Properties</h2>
+        <div class="center">
+            <table>
+                <tr>
+                    <th>properties</th>
+                    <th>Short description</th>
+                    <th>Returns</th>
+                    <th>Further details</th>
+                </tr>
+                <tr>
+                    <th>.id</th>
+                    <th>The guild ID</th>
+                    <th><a href="https://discord.js.org/#/docs/main/stable/typedef/Snowflake">SNOWFLAKE [Credit: D.JS]</a></th>
+                    <th>This is the official discord guild ID</th>
+                </tr>
+                <tr>
+                    <th>.isPartner</th>
+                    <th>Is the guild a BTMC partner?</th>
+                    <th>Boolean</th>
+                    <th>Can also be collected with .partner</th>
+                </tr>
+                <tr>
+                    <th>.partner</th>
+                    <th>Is the guild a BTMC partner?</th>
+                    <th>Boolean</th>
+                    <th>Can also be collected with .isPartner</th>
+                </tr>
+                <tr>
+                    <th>.prefix</th>
+                    <th>BTMC's prefix for the guild</th>
+                    <th>String</th>
+                    <th>This is set by server admins</th>
+                </tr>
+            </table>
+        </div>
+        <h2>Functions</h2>
+        <div class="center">
+            <table>
+                <tr>
+                    <th>Function</th>
+                    <th>Short description</th>
+                    <th>Returns</th>
+                    <th>Further details</th>
+                </tr>
+                <tr>
+                    <th>.updatePartnerStatus()</th>
+                    <th>Updates the partner status of the guild</th>
+                    <th>Boolean</th>
+                    <th>This is embedded into .update()</th>
+                </tr>
+                <tr>
+                    <th>.update()</th>
+                    <th>Updates all properties of the guild</th>
+                    <th>NULL (VOID)</th>
+                    <th>If you only want to update the partner status use .updatePartnerStatus()</th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
